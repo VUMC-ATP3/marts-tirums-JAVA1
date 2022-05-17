@@ -14,7 +14,8 @@ public class MainTwo {
         // %s norada uz mainigo pec kartas
         System.out.println(teikums);
 
-        System.out.println((2*(2+2)/2);
-        
+        System.out.println((2*(2+2)/2));
+
+
     }
 }
