@@ -90,6 +90,14 @@ public class Main {
         System.out.println("Dalījums " + dalijums);
         System.out.println("Atlikums " + atlikums);
 
+        double lowestTemperature = -20.4;
+        float highestTemperature = 40.65512312F;
+        System.out.println("Augstaka temp ir " + highestTemperature + "zemaka temp ir " + lowestTemperature);
+        String teikums = String.format("Augstākā temperatūra ir %.2f Zemākā temperatūra ir %2Ss. Zemāka temp %2$s. Augstaka Temo %1$.4f",highestTemperature,lowestTemperature);
+        System.out.println(teikums);
+
+
+
 
     }
 }
