@@ -101,7 +101,7 @@ public class LoopHomeWork {
         //Definēt veselu skaitļu masīvu ar izmēru 100
         int[] skaitluMasivsSimts = new int [100];
         int paraSk = 2;
-        for (int i = 0; i < skaitluMasivsSimts.length; i=i+2) {
+        for (int i = 0; i < skaitluMasivsSimts.length; i++) {
             skaitluMasivsSimts[i] = paraSk;
             System.out.print(paraSk + " " );
             paraSk = paraSk + 2;
